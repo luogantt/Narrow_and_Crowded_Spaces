@@ -17,6 +17,8 @@ rviz
 ```
 
 
+ first click 2D Pose Estimate
+ second click 2D nav goal
 
 # 前言
 
