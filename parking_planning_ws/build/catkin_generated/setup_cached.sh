@@ -7,10 +7,7 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/help/parking_planning_ws/devel:$CMAKE_PREFIX_PATH"
-export LD_LIBRARY_PATH="/home/help/parking_planning_ws/devel/lib:$LD_LIBRARY_PATH"
-export PKG_CONFIG_PATH="/home/help/parking_planning_ws/devel/lib/pkgconfig:$PKG_CONFIG_PATH"
-export PWD='/home/help/parking_planning_ws/build'
-export PYTHONPATH="/home/help/parking_planning_ws/devel/lib/python3/dist-packages:$PYTHONPATH"
-export ROSLISP_PACKAGE_DIRECTORIES='/home/help/parking_planning_ws/devel/share/common-lisp'
-export ROS_PACKAGE_PATH="/home/help/parking_planning_ws/src:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/home/lg/parking/Narrow_and_Crowded_Spaces/parking_planning_ws/devel:$CMAKE_PREFIX_PATH"
+export PWD='/home/lg/parking/Narrow_and_Crowded_Spaces/parking_planning_ws/build'
+export ROSLISP_PACKAGE_DIRECTORIES='/home/lg/parking/Narrow_and_Crowded_Spaces/parking_planning_ws/devel/share/common-lisp'
+export ROS_PACKAGE_PATH="/home/lg/parking/Narrow_and_Crowded_Spaces/parking_planning_ws/src:$ROS_PACKAGE_PATH"

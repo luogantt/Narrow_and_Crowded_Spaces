@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
 # Source directory: /usr/src/googletest
-# Build directory: /home/help/parking_planning_ws/build/gtest
+# Build directory: /home/lg/parking/Narrow_and_Crowded_Spaces/parking_planning_ws/build/gtest
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

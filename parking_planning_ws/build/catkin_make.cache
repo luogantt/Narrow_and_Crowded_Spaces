@@ -1,2 +1,2 @@
 planning
--DCATKIN_DEVEL_PREFIX=/home/help/parking_planning_ws/devel -DCMAKE_INSTALL_PREFIX=/home/help/parking_planning_ws/install -G Unix Makefiles
+-DCATKIN_DEVEL_PREFIX=/home/lg/parking/Narrow_and_Crowded_Spaces/parking_planning_ws/devel -DCMAKE_INSTALL_PREFIX=/home/lg/parking/Narrow_and_Crowded_Spaces/parking_planning_ws/install -G Unix Makefiles

@@ -1,3 +1,23 @@
+
+# 
+
+```
+cd  Narrow_and_Crowded_Spaces/parking_planning_ws
+
+catkn_make
+```
+
+```
+source devel/setup.bash
+roslaunch  planning run_planning.launch 
+```
+
+```
+rviz
+```
+
+
+
 # 前言
 
 ## 问题

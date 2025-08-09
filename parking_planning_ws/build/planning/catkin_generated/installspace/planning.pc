@@ -1,4 +1,4 @@
-prefix=/home/help/parking_planning_ws/install
+prefix=/home/lg/parking/Narrow_and_Crowded_Spaces/parking_planning_ws/install
 
 Name: planning
 Description: Description of planning

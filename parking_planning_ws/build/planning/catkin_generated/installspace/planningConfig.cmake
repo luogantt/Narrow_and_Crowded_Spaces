@@ -67,14 +67,14 @@ set(planning_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(planning_SOURCE_PREFIX /home/help/parking_planning_ws/src/planning)
-  set(planning_DEVEL_PREFIX /home/help/parking_planning_ws/devel)
+  set(planning_SOURCE_PREFIX /home/lg/parking/Narrow_and_Crowded_Spaces/parking_planning_ws/src/planning)
+  set(planning_DEVEL_PREFIX /home/lg/parking/Narrow_and_Crowded_Spaces/parking_planning_ws/devel)
   set(planning_INSTALL_PREFIX "")
   set(planning_PREFIX ${planning_DEVEL_PREFIX})
 else()
   set(planning_SOURCE_PREFIX "")
   set(planning_DEVEL_PREFIX "")
-  set(planning_INSTALL_PREFIX /home/help/parking_planning_ws/install)
+  set(planning_INSTALL_PREFIX /home/lg/parking/Narrow_and_Crowded_Spaces/parking_planning_ws/install)
   set(planning_PREFIX ${planning_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/help/parking_planning_ws/install/lib;/opt/ros/noetic/lib)
+    foreach(path /home/lg/parking/Narrow_and_Crowded_Spaces/parking_planning_ws/install/lib;/opt/ros/melodic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)
@@ -211,7 +211,7 @@ foreach(depend ${depends})
   _unpack_libraries_with_build_configuration(planning_LIBRARIES ${planning_LIBRARIES})
 
   _list_append_unique(planning_LIBRARY_DIRS ${${planning_dep}_LIBRARY_DIRS})
-  _list_append_deduplicate(planning_EXPORTED_TARGETS ${${planning_dep}_EXPORTED_TARGETS})
+  list(APPEND planning_EXPORTED_TARGETS ${${planning_dep}_EXPORTED_TARGETS})
 endforeach()
 
 set(pkg_cfg_extras "")
